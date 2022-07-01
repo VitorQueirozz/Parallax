@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #B563A5;
+    --cor2: #4E094C;
+    --cor3: #731F6D;
+    --cor4: #080226;
+    --cor5: #02020E;
+}
+.img1 {
+    position: relative;
+    background-image: url('imagens/img1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .7;
+    box-shadow: inset 5px 5px 10px 10px rgba(0, 0, 0, 0.534);
+}
+
+.img2 {
+    position: relative;
+    background-image: url('imagens/img2.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .7;
+}
+
+.img3 {
+    position: relative;
+    background-image: url('imagens/img3.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .7;
+}
+
+.img4 {
+    position: relative;
+    background-image: url('imagens/img4.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .7;
+}
+
+.texto {
+    background-image: linear-gradient(to right, #02010F, #793E82);
+    color: var(--cor1);
+    text-align: center;
+    padding: 100px 70px;
+    line-height: 25px;
+}
+
+.texto h2 {
+    font-size: 2em;
+    padding-bottom: 20px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+.texto p {
+    font-size: 1.2em;
+}
+
+.texto2 {
+    background-image: linear-gradient(to right, #02010F, #793E82);
+    color: var(--cor1);
+    text-align: center;
+    padding: 100px 70px;
+    line-height: 25px;
+}
+
+.texto2 h2 {
+    font-size: 2em;
+    padding-bottom: 20px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+.texto2 p {
+    font-size: 1.2em;
+}
+
+.texto3 {
+    background-image: linear-gradient(to right, #02010F, #793E82);
+    color: var(--cor1);
+    text-align: center;
+    padding: 100px 70px;
+    line-height: 25px;
+}
+
+.texto3 h2 {
+    font-size: 2em;
+    padding-bottom: 20px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+.texto3 p {
+    font-size: 1.2em;
+}
+
+.textimg {
+    font-size: 3em;
+    font-variant: small-caps;
+    letter-spacing: 8px;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    color: white;
+}
+
+.border {
+    background-color: var(--cor5);
+    padding: 20px;
+    opacity: .8;
+}
